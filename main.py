@@ -356,5 +356,5 @@ def step3(message):
     elif message.text == 'Back':
         main(message)
 
-bot.polling()
+bot.polling(none_stop=True)
 
